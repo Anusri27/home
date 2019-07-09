@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<link rel="stylesheet" href="home.css">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Tripod Safety</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="col-sm-12"></div>
+  </div>
+  <div class="d-flex justify-content-center align-items-center" >
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Enter feedback</button>
+</div>
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+<div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times</button>
+          <h4 class="modal-title">Please rate the locality</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group" align="center">
+              <label for="visibility">Visibility</label>
+              <div class="numRating" align="center">
+                <div>
+                  <div>
+                    <div>
+                      <div>
+                        <input id="rating1" type="radio" name="rating" value="1">
+                        <label for="rating1"><span>1</span></label>
+                      </div>
+                      <input id="rating2" type="radio" name="rating" value="2">
+                      <label for="rating2"><span>2</span></label>
+                    </div>
+                    <input id="rating3" type="radio" name="rating" value="3" >
+                    <label for="rating3"><span>3</span></label>
+                  </div>
+                  <input id="rating4" type="radio" name="rating" value="4">
+                  <label for="rating4"><span>4</span></label>
+                </div>
+                <input id="rating5" type="radio" name="rating" value="5">
+                <label for="rating5"><span>5</span></label>
+              </div>
+              <div class="form-group" align="center">
+              <label for="network">Network</label>
+              <div class="numRating1" align="center">
+                <div>
+                  <div>
+                    <div>
+                      <div>
+                        <input id="ratings1" type="radio" name="ratings" value="1">
+                        <label for="ratings1"><span>1</span></label>
+                      </div>
+                      <input id="ratings2" type="radio" name="ratings" value="2">
+                      <label for="ratings2"><span>2</span></label>
+                    </div>
+                    <input id="ratings3" type="radio" name="ratings" value="3">
+                    <label for="ratings3"><span>3</span></label>
+                  </div>
+                  <input id="ratings4" type="radio" name="ratings" value="4">
+                  <label for="ratings4"><span>4</span></label>
+                </div>
+                <input id="ratings5" type="radio" name="ratings" value="5">
+                <label for="ratings5"><span>5</span></label>
+              </div>
+
+
+            </div>
+            <div class="modal-footer">
+              <a href="#" class="btn btn-info" role="button">Submit</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </body>
+    </html>
